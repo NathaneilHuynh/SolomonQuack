@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script language="javascript" type="text/javascript">
+function playSound(soundfile){
+		var audio = new Audio(soundfile);
+		audio.play();
+	}
+</script>
+<body>
+
+<h1>Click Solomon's Face</h1>
+
+<img src="Solomon.png" alt="Blurry Sully" usemap="#sullymap" width="300" height="300">
+
+<map name="sullymap">
+	<area shape="circle" coords="172,140,110" alt="Circle" href="Javascript: playSound('Quack.mp3');">
+</map>
+
+<audio src="Quack.mp3"></audio>
+
+</body>
+</html>

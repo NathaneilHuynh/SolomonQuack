@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Click Solomon's Face</h1>
+
+<img id="Solomon" src="Solomon.png" alt="Blurry Sully" width="300" height="300">
+
+<script language="javascript" type="text/javascript">
+
+function playSound(soundfile) {
+			var audio = new Audio(soundfile);
+			audio.play();
+		}
+
+document.getElementById("Solomon").onclick = function() {playSound("Quack.mp3")};
+
+</script>
+
+<audio src="Quack.mp3"></audio>
+
+</body>
+</html>
